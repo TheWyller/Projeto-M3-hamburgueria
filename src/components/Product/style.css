@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+.cardFood:hover {
+  border: 2px solid #333333;
+  border-radius: 5px;
+}
+.cardFood > div {
+  display: flex;
+  justify-content: center;
+  background: #f5f5f5;
+  width: 300px;
+  height: 150px;
+}
+
+.cardFood > div > img {
+  position: relative;
+  top: -20px;
+  width: 177px;
+  height: 177px;
+}
+
+.cardFood > h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 22px;
+
+  height: 40px;
+}
+
+.cardFood > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #828282;
+
+  height: 20px;
+  margin-left: 22px;
+}
+.cardFood > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #27ae60;
+
+  margin-left: 22px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+  height: 18px;
+}
+.cardFood > button {
+  width: 106px;
+  height: 40px;
+
+  background: #27ae60;
+  border: 2px solid #27ae60;
+  border-radius: 8px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+
+  margin-left: 22px;
+  transition: 0.3s;
+}
+
+.cardFood > button:hover {
+  width: 106px;
+  height: 40px;
+
+  background: #93d7af;
+  border: 2px solid #93d7af;
+  border-radius: 8px;
+}
+
+@media (min-width: 1024px) {
+  .cardFood:hover {
+    border: 2px solid #333333;
+    border-radius: 5px;
+    transform: scale(1.03);
+  }
+
+  .cardFood > div {
+    width: 150px;
+    height: 75px;
+  }
+
+  .cardFood > div > img {
+    top: -10px;
+    width: 88.5px;
+    height: 88.5px;
+  }
+
+  .cardFood > h2 {
+    font-size: 15px;
+    line-height: 24px;
+
+    margin-top: 10px;
+    margin-bottom: 2.5px;
+    margin-left: 11px;
+
+    height: 20px;
+  }
+
+  .cardFood > p {
+    font-size: 10px;
+    line-height: 16px;
+
+    height: 10px;
+    margin-left: 11px;
+  }
+  .cardFood > span {
+    font-size: 10px;
+    line-height: 24px;
+
+    margin-left: 11px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+
+    height: 9px;
+  }
+  .cardFood > button {
+    width: 90px;
+    height: 20px;
+
+    border-radius: 5px;
+
+    font-size: 10px;
+    line-height: 17px;
+
+    margin-left: 11px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .cardFood:hover {
+    border: 2px solid #333333;
+    border-radius: 5px;
+  }
+  .cardFood > div {
+    display: flex;
+    justify-content: center;
+    background: #f5f5f5;
+    width: 300px;
+    height: 150px;
+  }
+
+  .cardFood > div > img {
+    position: relative;
+    top: -20px;
+    width: 177px;
+    height: 177px;
+  }
+
+  .cardFood > h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 22px;
+
+    height: 40px;
+  }
+
+  .cardFood > p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #828282;
+
+    height: 20px;
+    margin-left: 22px;
+  }
+  .cardFood > span {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #27ae60;
+
+    margin-left: 22px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    height: 18px;
+  }
+  .cardFood > button {
+    width: 106px;
+    height: 40px;
+
+    background: #27ae60;
+    border: 2px solid #27ae60;
+    border-radius: 8px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+
+    margin-left: 22px;
+    transition: 0.3s;
+  }
+
+  .cardFood > button:hover {
+    width: 106px;
+    height: 40px;
+
+    background: #93d7af;
+    border: 2px solid #93d7af;
+    border-radius: 8px;
+  }
+}

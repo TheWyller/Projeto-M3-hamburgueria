@@ -1,0 +1,86 @@
+header {
+  padding-top: 15px;
+}
+header > img {
+  width: 150px;
+  height: 22.85px;
+}
+
+header > form > input {
+  position: relative;
+  left: 0rem;
+  width: 85vw;
+  height: 60px;
+  padding: 0px 10px 0px 15px;
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+header > form > input::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #e0e0e0;
+}
+header > form {
+  display: flex;
+  align-items: center;
+  margin-top: 19.15px;
+}
+header > form > button {
+  position: absolute;
+  left: 13rem;
+  width: 90px;
+  height: 40px;
+
+  background: #27ae60;
+  border: 2px solid #27ae60;
+  border-radius: 8px;
+
+  color: #ffffff;
+  transition: 0.3s;
+  z-index: 1;
+}
+header > form > button:hover {
+  background: #93d7af;
+  border: 2px solid #93d7af;
+}
+
+@media (min-width: 375px) {
+  header > form > button {
+    left: 16rem;
+    transition: none;
+  }
+}
+@media (min-width: 425px) {
+  header > form > button {
+    left: 19rem;
+    transition: none;
+  }
+}
+
+@media (min-width: 768px) {
+  header {
+    padding-top: 0;
+  }
+  header > form {
+    margin: 0;
+  }
+  header > form > input {
+    position: relative;
+    left: 120px;
+    top: 0px;
+    width: 365px;
+    height: 60px;
+  }
+  header > form > button {
+    position: unset;
+    width: 107px;
+    height: 40px;
+    z-index: 1;
+  }
+}
